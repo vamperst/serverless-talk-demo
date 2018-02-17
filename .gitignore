@@ -1,0 +1,12 @@
+# package directories
+node_modules
+node_modules/*
+jspm_packages
+
+# Serverless directories
+.serverless
+
+#terraform
+*.tfstate*
+*.tfvars
+*.terraform/
