@@ -17,8 +17,8 @@ AWS.config.region = 'us-east-1'; // Region
 //     IdentityPoolId: 'arn:aws:cognito-idp:us-east-1:885643748287:userpool/us-east-1_h5Oz0Cs5h',
 // });
 AWS.config.update({
-  accessKeyId: "<accessKeyId>",
-  secretAccessKey: "<secretAccessKey>",
+  accessKeyId: "",
+  secretAccessKey: "",
   "region": "us-east-1" 
 });
 

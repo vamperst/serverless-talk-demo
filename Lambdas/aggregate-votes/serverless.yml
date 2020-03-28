@@ -2,7 +2,7 @@ service: aggregate-vote
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs10.x
   iamRoleStatements: # permissions for all of your functions can be set here
     - Effect: Allow
       Action: # Gives permission to DynamoDB tables in a specific region
@@ -22,5 +22,5 @@ functions:
     timeout: 10
     events:
       - stream:
-            arn: <arn_stream_dynamodb>
+            arn: arn:aws:dynamodb:us-east-1:867061838226:table/VoteApp/stream/2019-11-23T13:05:04.225
             batchSize: 1

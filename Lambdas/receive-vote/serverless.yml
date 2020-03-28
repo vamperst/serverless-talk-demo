@@ -1,10 +1,10 @@
 
 service: receive-vote
-
+stage: dev 
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs10.x
   iamRoleStatements: # permissions for all of your functions can be set here
     - Effect: Allow
       Action: # Gives permission to DynamoDB tables in a specific region

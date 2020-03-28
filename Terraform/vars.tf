@@ -1,9 +1,11 @@
 variable "bucket_votes" {
-    default = "palestravotes"
+  default = "palestravotes2"
 }
+
 variable "bucket_dashboard" {
-    default = "palestradashboard"
+  default = "palestradashboard2"
 }
+
 variable "region" {
-    default = "us-east-1"
+  default = "us-east-1"
 }
