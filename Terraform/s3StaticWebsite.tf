@@ -27,7 +27,7 @@ EOF
         index_document = "index.html"
         error_document = "error.html"
     }
-    tags {
+    tags = {
     }
     force_destroy = true
 }
@@ -57,7 +57,7 @@ EOF
         index_document = "index.html"
         error_document = "error.html"
     }
-    tags {
+    tags = {
     }
     force_destroy = true
 }

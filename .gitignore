@@ -10,3 +10,5 @@ jspm_packages
 *.tfstate*
 *.tfvars
 *.terraform/
+
+*Icon*

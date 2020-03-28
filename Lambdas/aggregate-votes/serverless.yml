@@ -22,5 +22,5 @@ functions:
     timeout: 10
     events:
       - stream:
-            arn: arn:aws:dynamodb:us-east-1:867061838226:table/VoteApp/stream/2019-11-23T13:05:04.225
+            arn: arn:aws:dynamodb:us-east-1:867061838226:table/VoteApp/stream/2020-03-28T11:20:04.055
             batchSize: 1

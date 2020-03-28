@@ -11,7 +11,7 @@ resource "aws_dynamodb_table" "VoteApp" {
     type = "S"
   }
 
-  tags {
+  tags = {
     Name        = "VoteApp"
     Environment = "palestra"
   }

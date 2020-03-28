@@ -1,11 +1,11 @@
-// url: "https://4brvhjsdyk.execute-api.us-east-1.amazonaws.com/dev/receivevote",
+// url: "https://bv36gqslc9.execute-api.us-east-1.amazonaws.com/dev/receivevote",
 
 // $(document).ready(function(){
 $('#red-button').click(function(){
   $.ajax({
     type: "POST",
     crossDomain: true,
-    url: "https://4brvhjsdyk.execute-api.us-east-1.amazonaws.com/dev/receivevote",
+    url: "https://bv36gqslc9.execute-api.us-east-1.amazonaws.com/dev/receivevote",
     data: '{"Body": "RED"}',
     dataType: 'json',
     success: function(responseData, textStatus, jqXHR) {
@@ -23,7 +23,7 @@ $('#green-button').click(function(){
   $.ajax({
     type: "POST",
     crossDomain: true,
-    url: "https://4brvhjsdyk.execute-api.us-east-1.amazonaws.com/dev/receivevote",
+    url: "https://bv36gqslc9.execute-api.us-east-1.amazonaws.com/dev/receivevote",
     data: '{"Body": "GREEN"}',
     dataType: 'json',
     success: function(responseData, textStatus, jqXHR) {
@@ -44,7 +44,7 @@ $('#blue-button').click(function(){
   $.ajax({
     type: "POST",
     crossDomain: true,
-    url: "https://4brvhjsdyk.execute-api.us-east-1.amazonaws.com/dev/receivevote",
+    url: "https://bv36gqslc9.execute-api.us-east-1.amazonaws.com/dev/receivevote",
     data: '{"Body": "BLUE"}',
     dataType: 'json',
     success: function(responseData, textStatus, jqXHR) {
